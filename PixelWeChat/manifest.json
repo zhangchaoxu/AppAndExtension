@@ -1,0 +1,33 @@
+{
+  "name": "PixelChatApp",
+  "short_name": "PixelChatApp - WeChat(Packaged App)",
+  "version": "0.1",
+  "author": "Charles(zhangchaoxu@gmail.com)",
+  "manifest_version": 2,
+  "description": "Packaged app of WeChat and have a pixelate icon",
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  // "default_locale": "en",
+  "offline_enabled": false,
+  "app": {
+    "background": {
+      "scripts": ["javascript/main.js"]
+    }
+  },
+  "permissions": [
+    "webview",
+    "alarms",
+    "notifications",
+    "*://*.qq.com/",
+    {
+      "fileSystem": [
+        "write",
+        "retainEntries",
+        "directory"
+      ]
+    }
+  ]
+}
