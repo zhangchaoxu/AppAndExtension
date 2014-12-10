@@ -1,0 +1,12 @@
+{
+  "name": {
+    "message": "PixelChatApp"
+  },
+  "short_name": {
+    "message": "PixelChatApp - Packaged App n Chrome for"
+  },
+  "description": {
+    "message": "PixelChatApp, unofficial app of WeChat and have a pixelate icon"
+  }
+}
+

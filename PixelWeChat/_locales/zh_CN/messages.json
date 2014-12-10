@@ -1,0 +1,11 @@
+{
+   "name": {
+      "message": "像素微信"
+   },
+   "short_name": {
+      "message": "像素微信 - Chrome上的微信App"
+   },
+   "description": {
+      "message": "像素微信，图标像素化的非官方微信Chrome App"
+   }
+}
