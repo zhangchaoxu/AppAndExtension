@@ -1,7 +1,7 @@
 {
   "name": "__MSG_name__",
   "short_name": "__MSG_short_name__",
-  "version": "0.1",
+  "version": "0.2",
   "author": "Charles(zhangchaoxu@gmail.com)",
   "manifest_version": 2,
   "description": "__MSG_description__",
@@ -14,11 +14,9 @@
   "offline_enabled": false,
   "app": {
     "background": {
-      "scripts": ["javascript/main.js"]
+      "scripts": ["javascript/background.js"]
     }
   },
-  "update_url": "https://clients2.google.com/service/update2/crx",
-  // http://upext.chrome.360.cn/intf.php?method=ExtUpdate.query
   "permissions": [
     "webview",
     "alarms",

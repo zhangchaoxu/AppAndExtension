@@ -1,0 +1,14 @@
+/* Basic styling */
+body {
+    background: grey;
+    margin: 0;
+    padding: 0;
+}
+
+/* Webview styling */
+webview {
+    width: 962px;
+    height: 623px;
+    overflow: hidden;
+    position: relative;
+}

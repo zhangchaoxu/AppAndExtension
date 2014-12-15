@@ -1,9 +1,0 @@
-body {
-    background: grey;
-}
-
-webview {
-    display: inline-block;
-    width: 1000px;
-    height: 680px;
-}

@@ -1,0 +1,52 @@
+/**
+ * do sth in the wechat, like notification
+
+ * Injects CSS into the guest page.
+ * @see https://developer.chrome.com/apps/tags/webview#method-insertCSS
+ *
+ * @auther Charles
+ * @since 12/15/2014
+ */
+
+/* Login Page styling */
+/*#vernierContainer,*/
+/*#login_container .loginPanel .logoTitle {
+    background: url(http://www.baidu.com/img/baidu_jgylogo3.gif) no-repeat scroll 0px 32px transparent;
+}
+
+#login_container .loginPanel .enlogoTitle {
+    background: url(http://www.baidu.com/img/baidu_jgylogo3.gif) no-repeat scroll 0px 32px transparent;
+    width: 108px;
+}*/
+
+/*display the footer of the login page*/
+.footer {
+    display: none;
+}
+
+/* Chat Page styling */
+html, body {
+    width: 962px !important;
+    height: 740px !important;
+    max-height: 740px !important;
+    min-height: 740px !important;
+    overflow: hidden !important;
+    overflow-x: hidden !important;
+    overflow-y: hidden !important;
+}
+
+/* set the padding and margin of the whole chat panel */
+.chatPanel {
+    padding: 0 !important;
+    padding-top: 16px !important;
+    margin: 0 !important;
+}
+
+/* hidden the middle division of the chat page */
+.chatPanel .chat {
+    margin-left: -4px !important;
+}
+
+
+
+
